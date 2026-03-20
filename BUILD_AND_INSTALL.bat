@@ -1,5 +1,5 @@
 @echo off
-IF NOT EXIST "..\..\BepInEx\interop\Assembly-CSharp.dll" (
+IF NOT EXIST "..\BepInEx\interop\Assembly-CSharp.dll" (
     echo ERROR: Launch Among Us with BepInEx installed first, then re-run this.
     pause & exit /b 1
 )
